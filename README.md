@@ -1,2 +1,2 @@
 # Minha-primeira-Pagina-HTML
-Desafio de código HTML - DIO
+Desafio de projeto HTML - DIO
