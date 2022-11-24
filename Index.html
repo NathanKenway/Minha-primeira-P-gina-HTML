@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Introduction</title>
+    </head>
+    
+    <body>
+        <h1 id="inicio">
+           <strong>Recapitulando Algumas noções básicas de HTML</strong>
+        </h1>
+        <hr/>
+        
+        <h2>
+           <strong>Indice</strong>
+        </h2>
+        <ul>
+            <li><a href="#tags">O que são tags?</a></li>
+            <li><a href="#ordenada">Lista ordenada</a></li>
+            <li><a href="#desordenada">Lista desordenada</a></li>
+            <li><a href="#definição">Lista por definição</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+        
+        <h2 id="tags">
+            <strong><i>- O que são Tags?</i></strong>
+        </h2>
+        <small><a href="#inicio">VOLTAR</a></small>
+            <p>
+                A expressão “<strong>tag</strong>” significa literalmente “<strong>etiqueta</strong>”. Uma etiqueta é usada para marcar ou identificar algo, como a etiqueta de preços no mercado por exemplo.
+
+                No HTML5, as tags tem o mesmo objetivo: <u>marcar elementos</u>. Ou seja, determinar onde um elemento começa e onde ele termina. Isso é muito apropriado, afinal “HTML” significa <strong><i>Linguagem de Marcação de Hipertexto</i></strong>.
+
+                Há dois tipos de tags:
+            </p> 
+            <p>  
+                <ol>
+                    <li>As que precisam de fechamento</li>
+                    <li>As que se fecham sozinhas</li>
+                    <p>
+                        Vamos conhecê-las agora:
+                    </p>
+                </ol>
+
+        <h3>
+            <strong><i>1- Tags que necessitam de fechamento</i></strong>
+        </h3>      
+            <p>   
+                Para criar uma tag precisamos definir um sinal de <strong>menor</strong> (<), o nome da tag e por fim um sinal de <strong>maior</strong> (>).
+
+                Para fechar essa mesma tag, basta definir um sinal de menor (<), uma <strong>barra</strong> (/), o nome da tag e um sinal de maior (>).
+
+                Entre a tag de abertura e fechamento irá o conteúdo da tag. Exemplo: 
+            </p>
+            <img src="https://lh3.googleusercontent.com/Iex75LBHBhXR0c3RI6wg17ujiWY-KECPUEJ6HaOiTTcLQ3DfE345xAM0vW0I2xDPnBizAVBW2htRGGCsS7u7V6FCjyWlb2vCqTEyLlow2C4rY7LIXZssMsUnVHnCeGnn9gTy6l7S" alt="">
+            <p>
+                <i>Em vermelho estão as tags de abertura e fechamento e em amarelo está o conteúdo da tag.
+
+                Quando uma tag é interpretada no navegador, ela se transforma em um elemento HTML.</i>
+            </p>
+        <h3>
+           <strong><i>2 - Tags que se fecham sozinhas (self-closing)</i></strong>
+        </h3>    
+            <p>
+                Algumas tags <strong>não precisam de tag de fechamento</strong>. Nesse caso, na tag de abertura, após definir o nome da tag, nós já colocamos uma barra (/), deixando claro seu fechamento. Exemplo:
+            </p>
+            <img src="https://lh4.googleusercontent.com/x2q6wse09UN1AOKEz6rex7UBqzn6ddpw1bUV8Yv44zr-hcFZ2YLi23flW8FtNt0_RmZTVssvY-0npivB_g6L7nWzLh6merrTXK6-bHdsqcA_r59X1D2LpJss1fKTA-2YBmrk2Mgd" alt="">
+            <p>
+                <i>Em vermelho está a tag de abertura e a barra de fechamento no final dela.
+
+                As tags de auto fechamento não irão possuir conteúdo.</i>
+            </p>
+            <p>
+                Percebemos que é bem simples criar uma tag, não concorda? Elas podem ser simples de criar, mas também são muito poderosas, pois elas são um dos fundamentos da <strong>linguagem HTML</strong>, o que as torna também um dos fundamentos da <strong>Web Moderna</strong>. 
+            </p>
+            <p>
+                Há um provérbio chinês que diz: <strong><u><i>“Uma longa caminhada começa sempre com o primeiro passo”</i></u></strong>. Da mesma forma, não importa quão grande um site ou sistema possa ser, ele sempre irá começar com uma pequena tag.
+            </p>
+        
+        <h2>
+            <strong><i>- Listas Ordenadas/Desordenadas e de Definição</i></strong>
+        </h2>    
+            <p>
+                As listas são muito importantes quando queremos listar alguns itens no site e também para a criação de <strong>menu de navegação</strong>.
+            </p>    
+            <p>
+                As listas ordenadas, como o próprio nome já diz, os itens serão listados de forma <strong>ordenada</strong>, seja por <strong>número</strong>, <strong>letra</strong>, ou <strong>algarismos romanos</strong>.
+            </p>   
+        <h3 id="ordenada">
+            <strong><i>1 - Listas Ordenadas</i></strong>
+        </h3>
+        <small><a href="#inicio">VOLTAR</a></small>
+            <p>
+                Uma lista ordenada começa com a tag (<strong>ol</strong>) e seus respectivos itens da lista ficam dentro da tag (<strong>li</strong>). Por padrão as listas ordenadas são ordenadas por números, mas também iremos ver como ordena-la por outros métodos.
+            </p>
+            <p>Vamos ao código:</p>
+            <img src="Imagens/Captura de Tela (13).png" alt="200" width="600">
+            <p>
+                <strong>Aparecerá assim no site</strong>:
+            </p>
+            <ol>
+                <li>Nome</li>
+                <li>Telefone</li>
+                <li>Endereço</li>
+                <li>País</li>
+            </ol>
+            <p>
+                Como havia dito, podemos ordenar também por <strong>a</strong>,<strong>b</strong>,<strong>c</strong>,<strong>d</strong>, etc. Caso queira que seja ordenada por letras maiúsculas, basta em colocar (<strong>type="a"</strong>):
+            </p>
+            <img src="Imagens/Captura de Tela (14).png" alt="200" width="600">
+            <p>
+                <strong>Aparecerá assim no site</strong>:
+            </p>
+            <ol old type="a">
+                <li>Nome</li>
+                <li>Telefone</li>
+                <li>Endereço</li>
+                <li>País</li>
+            </ol>
+            <p>
+                Além desses dois tipos de ordenação, existem diversos tipos como o <strong>Algarismo Romano</strong>:
+            </p>
+            <img src="Imagens/Captura de Tela (15).png" alt="200" width="600">
+            <p>
+                <strong>A imagem ficará assim</strong>:
+            </p>
+            <ol old type="I">
+                <li>Nome</li>
+                <li>Telefone</li>
+                <li>Endereço</li>
+                <li>País</li>
+            </ol>
+
+        <h3 id="desordenada">
+            <strong><i>2 - Listas Desordenadas</i></strong>
+        </h3>  
+        <small><a href="#inicio">VOLTAR</a></small>
+            <p>
+                Já as Listas desordenadas são iniciadas com a tag (<strong>ul</strong>) e são representadas por pequenos "<strong><i>bullets</i></strong>", vamos ao código:
+            </p>
+            <img src="Imagens/Captura de Tela (16).png" alt="200" width="600">
+            <p>
+                A imagem ficará assim:
+            </p>
+            <ul>
+                <li>Nome</li>
+                <li>Telefone</li>
+                <li>Endereço</li>
+                <li>País</li>
+            </ul>
+
+        <h3 id="definição">
+            <strong><i>3 - Listas por Definição</i></strong>
+        </h3>  
+        <small><a href="#inicio">VOLTAR</a></small>  
+            <p>
+                Já as Listas por definição são um pouco mais diferente, elas são representadas pela tag (<strong>dl</strong>), seguido de (<strong>dt</strong>) e (<strong>dd</strong>), ficando assim no código:
+            </p>
+            <img src="Imagens/Captura de Tela (17).png" alt="200" width="600">
+            <p>Na exibição ficará assim:</p>
+            <dl>
+                <dt>Html</dt>
+                <dd>Html básico</dd>
+                <dd>Html avançado</dd>
+                <dt>PHP</dt>
+                <dd>PHP básico</dd>
+                <dd>PHP intermediário</dd>
+                <dd>PHP avançado</dd>
+            </dl>
+        
+        <h2 id="links">
+            <strong><i>- Links em HTML</i></strong>
+        </h2>    
+        <small><a href="#inicio">VOLTAR</a></small>
+            <p>
+                O atributo "href" nomeia a concção com outra página de web. Na verdade é o lugar para onde serão enviados os usuários que clicarem no link.
+            </p>
+            <p>
+                Links podem ser:
+            </p>
+            <ul>
+               <li>Internos - para lugares específicos da página(ancoras)</li>
+               <li>Locais - para páginas do mesmo domínio</li>
+               <li>Globais - para outros domínios fora do site</li> 
+            </ul>
+            <img src="Imagens/Captura de Tela (27).png" alt="">
+         
+        <h3>
+            <strong><i>1 - Links de Texto</i></strong>
+        </h3> 
+            <p>
+                Para marcar o início e do fim de uma âncora pode ser usado <a></a>. Escolha o tipo de atributo que você precisa e coloque dentro da tag.
+            </p>  
+            <p>Exemplo:</p>
+            <img src="Imagens/Captura de Tela (28).png" alt="">
+
+        <h3>
+            <strong><i>2 - Links Targets</i></strong>
+        </h3>
+            <p>
+                O atributo "target" diz ao navegador se ele precisa abrir outra página na mesma janela ou em outra.
+            </p>
+            <img src="Imagens/Captura de Tela (29).png" alt="">
+            <p>
+                O exmplo mostra como uma página pode ser aberta em uma janela do navegador. Desta forma podemos permanecer na página do tutorial e abrir uma nova página de navegação.
+            </p>
+            <img src="Imagens/Captura de Tela (30).png" alt="">
+        
+        <h3>
+            <strong><i>3 - Âncora</i></strong>
+        </h3>
+            <p>
+                É usada para lincar duas seções da mesma página. Desta forma temos que nomear essas seções. Para isso é indicado dar uma olhadano próximo exemplo.
+            </p>
+            <img src="Imagens/Captura de Tela (31).png" alt="">
+            <p>
+                Depois temos que fazer um código para o link, colocando primeiro o nome da âncora.
+            </p>
+            <img src="Imagens/Captura de Tela (32).png" alt="">
+
+         <h3>
+            <strong><i>4 - Link de E-mail</i></strong>
+         </h3>   
+            <p>
+                Fazer um link de e-mail é bem simples. Se você quer que alguem te escreva um e-mail, a melhor maneira seria colocar a disposição um link com o seu e-mail e pre-estabelecer os assuntos.                
+            </p>
+            <img src="Imagens/Captura de Tela (33).png" alt="">
+            <p>
+                No caso de o assunto não ser suficiente e você quer adicionar algo ao conteúdo do e-mail, pode fazê-lo com a ajuda do próximo código:
+            </p>
+            <img src="Imagens/Captura de Tela (34).png" alt="">
+
+        <h3>
+            <strong><i>5 - Links de Download</i></strong>
+        </h3>    
+            <p>
+                Os links de download se parecem com um link normal de texto. O problema é quando você quer adicionar uma foto. A melhor solução é usar uma miniatura como link, mas falaremos mais disso na próxima lição.
+            </p>
+            <img src="Imagens/Captura de Tela (35).png" alt="">
+        
+        <h3>
+            <strong><i>6 - Link de inscrição YouTube</i></strong>
+        </h3>
+            <p>
+                Quando vemos um vídeo em uma página do YouTube, geralmente temos o botão para se inscrever ao lado dele. Mas o que acontece quando o vídeo é inserido em nosso próprio site. Aqui está como podemos simular um link semelhante da mesma maneira. Sinta-se à vontade para clicar para ver como funciona.
+            </p>
+            <img src="Imagens/Captura de Tela (36).png" alt="">
+
+        <h3>
+            <strong><i>7 - Default link/Base link</i></strong>
+        </h3>    
+            <p>
+                use a tag (base) no intererior do elemento (head) para colocar um link base. Isso é necessário caso você tenha em algum lugar um link que não funciona ou um caso de um destino que não mais existe. O link base envia o usuário a um endereço específico. Geralmente para a página inicial, mas pode ser para qualquer outra página, eventualmente uma feita com esse propósito.
+            </p>
+            <img src="Imagens/Captura de Tela (37).png" alt="">
+
+    </body>
+</html>
